@@ -1,0 +1,26 @@
+{
+  "name": "Demo private app",
+  "description": "",
+  "scopes": [
+    "crm.objects.contacts.read",
+    "crm.objects.contacts.write",
+    "crm.objects.deals.read",
+    "crm.objects.deals.write"
+  ],
+  "public": false,
+  "assets": [
+    {
+      "path": "./resources/sprockets-object.json"
+    }
+  ],
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "cards/alert-card.json",
+          "version": 2
+        }
+      ]
+    }
+  }
+}

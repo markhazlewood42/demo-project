@@ -1,0 +1,25 @@
+{
+  "type": "crm-card",
+  "version": 2,
+  "data": {
+    "title": "Alert card (v2)",
+    "fetch": {
+      "targetFunction": "alert-card-response",
+      "objectTypes": [
+        {
+          "name": "contacts",
+          "propertiesToSend": [
+            "firstname",
+            "lastname"
+          ], 
+          "actions":[]
+        },
+        {
+          "name": "p_p_sprockets",
+          "propertiesToSend": [], 
+          "actions":[]
+        }
+      ]
+    }
+  }
+}

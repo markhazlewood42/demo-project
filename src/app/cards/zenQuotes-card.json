@@ -1,0 +1,31 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "ZenQuotes card (v1)",
+    "fetch": {
+      "targetFunction": "zenQuotes-card-response",
+      "objectTypes": [
+        {
+          "name": "contacts",
+          "propertiesToSend": [
+            "firstname",
+            "lastname"
+          ], 
+          "actions":[]
+        }
+      ]
+    },
+    "display": {
+      "properties": [
+        {
+          "name": "pet_name",
+          "label": "Pet's Name",
+          "dataType": "STRING"
+        }
+      ]
+    },
+    "actions": {
+      "baseUrls": []
+    }
+  }
+}

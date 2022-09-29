@@ -1,0 +1,14 @@
+{
+  "runtime": "nodejs14.x",
+  "version": "1.0",
+  "appFunctions": {
+    "zenQuotes-card-response": {
+      "file": "zenQuotes-card-response.js",
+      "secrets": []
+    },
+    "alert-card-response": {
+      "file": "alert-card-response.js",
+      "secrets": []
+    }
+  }
+}

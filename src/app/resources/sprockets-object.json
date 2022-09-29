@@ -1,0 +1,37 @@
+{
+    "type": "object-schemas",
+    "data": {
+      "name": "p_sprockets",
+      "metaType": "PORTAL_SPECIFIC",
+      "labels": {
+        "singular": "Sprocket",
+        "plural": "Sprockets"
+      },
+      "requiredProperties": ["name"],
+      "searchableProperties": ["name"],
+      "primaryDisplayProperty": "name",
+      "secondaryDisplayProperties": [],
+      "propertyGroups": [
+        {
+          "name": "sprocket_information",
+          "displayName": "Sprocket Information",
+          "displayOrder": 0
+        }
+      ],
+      "properties": [
+        {
+          "name": "name",
+          "label": "Name",
+          "groupName": "sprocket_information",
+          "description": "",
+          "options": [],
+          "displayOrder": -1,
+          "hasUniqueValue": false,
+          "hidden": false,
+          "type": "string",
+          "fieldType": "text"
+        }
+      ],
+      "associations": []
+    }
+  }
