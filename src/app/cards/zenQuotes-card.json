@@ -1,7 +1,7 @@
 {
   "type": "crm-card",
   "data": {
-    "title": "ZenQuotes card (v3)",
+    "title": "ZenQuotes card (v1)",
     "fetch": {
       "targetFunction": "zenQuotes-card-response",
       "objectTypes": [
