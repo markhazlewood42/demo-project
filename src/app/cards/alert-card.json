@@ -2,7 +2,7 @@
   "type": "crm-card",
   "version": 2,
   "data": {
-    "title": "Alert card (v2)",
+    "title": "Card with an iFrame",
     "fetch": {
       "targetFunction": "alert-card-response",
       "objectTypes": [

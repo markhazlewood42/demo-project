@@ -9,10 +9,16 @@ exports.main = async (context = {}, sendResponse) => {
   sendResponse({
     "sections": [
       {
-        "type": "text",
-        "format": "markdown",
-        "text": `The word ** ${firstname} ** is bolded, and the word [${firstname}](https://www.hubspot.com/) is a link. here's \`code\` and _italics_ too`
-      }
+        "type": "button",
+        "text": "Iframe Button",
+        "onClick": {
+         "type": "IFRAME",
+         "width": 890,
+         "height": 748,
+         "uri": "https://www.markedupconsulting.com/",
+         "associatedObjectProperties": []
+        }
+       }
     ]
   });
 };
