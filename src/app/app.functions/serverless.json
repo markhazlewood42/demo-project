@@ -1,6 +1,12 @@
 {
   "runtime": "nodejs14.x",
   "version": "1.0",
+  "endpoints": {
+    "echo-params": {
+      "file": "echoParams.js",
+      "secrets": []
+    }
+  },
   "appFunctions": {
     "zenQuotes-card-response": {
       "file": "zenQuotes-card-response.js",
