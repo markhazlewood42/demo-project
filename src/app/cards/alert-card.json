@@ -3,6 +3,7 @@
   "version": 2,
   "data": {
     "title": "Card with an iFrame",
+    "location":"crm.record.sidebar",
     "fetch": {
       "targetFunction": "alert-card-response",
       "objectTypes": [
