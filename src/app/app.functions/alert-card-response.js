@@ -15,7 +15,7 @@ exports.main = async (context = {}, sendResponse) => {
          "type": "IFRAME",
          "width": 890,
          "height": 748,
-         "uri": "https://www.markedupconsulting.com?testProp=test",
+         "uri": "https://meetings.markedupconsulting.com/_hcms/api/echo-params",
          "associatedObjectProperties": []
         }
        }
