@@ -16,7 +16,7 @@ exports.main = async (context = {}, sendResponse) => {
          "width": 890,
          "height": 748,
          "uri": "https://meetings.markedupconsulting.com/_hcms/api/echo-params",
-         "associatedObjectProperties": []
+         "associatedObjectProperties": ["firstname", "lastname", "full_name"]
         }
        }
     ]
