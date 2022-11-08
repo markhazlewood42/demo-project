@@ -1,10 +1,6 @@
 const axios = require("axios");
 
 exports.main = async (context = {}, sendResponse) => {
-  
-  const { firstname } = context.propertiesToSend;
-
-  console.log("A test debug statement!");
 
   sendResponse({
     "sections": [
